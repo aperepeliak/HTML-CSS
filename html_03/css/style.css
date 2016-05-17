@@ -8,8 +8,12 @@ body {
 
 .wrapper {
     width: 1060px;
+    height: 900px;
     margin: 0 auto;
     background-color: #fff;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 /*HEADER*/
@@ -17,32 +21,32 @@ body {
 .logo {
     padding: 50px 0 40px 45px;
 }
-nav {
+header nav {
     margin: 0 46px;
     height: 40px;
     background-image: url(../img/navBar.jpg);
 }
-nav ul {
+header nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
-nav ul li {
+header nav ul li {
     display: inline-block;
     padding: 9px 25px;
     margin: 0 20px 0 0;
     color: #fff;
 }
-nav ul .selected {
+header nav ul .selected {
     border-left: 1px solid #838383;
     border-right: 1px solid #838383;
     background-image: url(../img/navSelected.jpg);
 }
-nav li a {
+header nav li a {
     text-decoration: none;
     color: #fff;
 }
-nav li a:hover {
+header nav li a:hover {
     text-decoration: underline;
 }
 
@@ -51,31 +55,37 @@ nav li a:hover {
 /*SIDEBAR*/
 
 main {
-    margin: 40px 46px;
+    margin: 40px 46px 60px;
 }
+
 aside {
     float: left;
     width: 25%;
 }
+
 aside ul {
     margin: 0;
     padding: 0;
     border: 1px solid #c8c8c8;
 }
+
 aside ul li {
     list-style: none;
     border-bottom: 1px solid #c8c8c8;
     font-size: 15px;
 }
+
 aside ul li:last-child {
     border-bottom: none;
 }
+
 aside ul li a {
     display: block;
     padding: 10px 0px 10px 23px;
     text-decoration: none;
     color: #656363;
 }
+
 aside ul li a:hover {
     background-color: #f9f9f9;
     padding-left: 35px;
@@ -86,9 +96,11 @@ aside ul li a:hover {
 .content {
     margin-left: 30%;
 }
+
 .content .image {
     border: 1px solid #c8c8c8;
 }
+
 .image img {
     display: block;
     margin: auto;
@@ -100,7 +112,51 @@ aside ul li a:hover {
 .content .text {
     margin: 35px 25px 0;
 }
+
 .content .text p {
     margin: 0;
     font-size: 13px;
+}
+
+/*FOOTER*/
+
+footer nav {
+    margin: 0 46px;
+    height: 40px;
+    background-color: #e1e1e1;
+}
+
+footer nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline-block;
+    padding: 9px 25px;
+    margin: 0 20px 0 0;
+    color: #fff;
+}
+
+footer nav ul .selected {
+    text-decoration: underline;
+}
+
+footer nav li a {
+    text-decoration: none;
+    color: #2c2c2c;
+}
+
+footer nav li a:hover {
+    text-decoration: underline;
+}
+
+footer nav p {
+    display: inline;
+    float: right;
+    font-size: 12px;
+    text-align: center;
+    padding: 0px 10px;
+    margin: 12px 0 9px 0;
 }
