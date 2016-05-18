@@ -12,6 +12,9 @@ body {
     width: 1000px;
     margin: 0 auto;
     background-color: #fff;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
 }
 
 /*HEADER*/
@@ -25,14 +28,13 @@ body {
 /*LOGO*/
 
 .logo {
-    padding: 11px 0px 0px 28px;
+    padding: 12px 0px 0px 28px;
     float: left;
     width: 30%;
 }
-
 .logo a {
-  display: block;
-  height: 160px;
+    display: block;
+    height: 160px;
 }
 
 /*INFO*/
@@ -75,7 +77,88 @@ body {
     text-align: center;
     color: #128aa7;
 }
-
 .countries a:hover {
-  color: red;
+    color: red;
 }
+
+/*PHOTO*/
+
+.photo {
+    height: 237px;
+}
+
+/*MENU*/
+
+nav {
+    height: 29px;
+    background-image: url(../img/navBar.jpg);
+    -webkit-box-shadow: 0px 6px 10px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 6px 10px -5px rgba(0,0,0,0.75);
+box-shadow: 0px 6px 10px -5px rgba(0,0,0,0.75);
+}
+nav ul {
+    display: block;
+    margin: 0;
+    /*padding: 0px 0px 0px 20px;*/
+    /*height: 29px;*/
+    list-style: none;
+}
+nav ul::after {
+    display: block;
+    content: '';
+    clear: both;
+    float: none;
+}
+nav ul.menu > li {
+    float: left;
+    position: relative;
+}
+
+nav ul img {
+  margin: 1px 4px;
+}
+
+nav ul.menu > li > a {
+  display: block;
+  padding: 5px;
+  margin: 0px 25px 0 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+ul.menu>li:hover {
+  text-decoration: underline;
+}
+
+ul.menu > li:hover > ul.submenu {
+    display: block;
+    -webkit-box-shadow: 0px 6px 13px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 6px 13px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 6px 13px 0px rgba(0,0,0,0.75);
+}
+
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 160px;
+    top: 29px;
+    left: 0;
+    margin: 0px 10px;
+}
+ul.submenu > li {
+    display: block;
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 6px 15px;
+    color: #fff;
+    background-color: #303030;
+    text-decoration: none;
+}
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+}
+/*
+.travel {
+  height: 155px;
+}*/
