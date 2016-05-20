@@ -12,9 +12,9 @@ body {
     width: 1000px;
     margin: 0 auto;
     background-color: #fff;
-    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.75);
 }
 
 /*HEADER*/
@@ -56,8 +56,16 @@ body {
 .contacts p {
     padding: 2px;
 }
+.contacts a {
+    color: #128aa7;
+    text-decoration: none;
+}
+.contacts a:hover {
+    color: #900022;
+    text-decoration: underline;
+}
 
-/*countries*/
+/*COUNTRIES*/
 
 .countries {
     clear: right;
@@ -77,7 +85,6 @@ body {
     text-align: center;
     color: #128aa7;
 }
-
 .countries a:hover {
     color: #900022;
 }
@@ -97,39 +104,32 @@ nav {
     -moz-box-shadow: 0px 6px 10px -5px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 6px 10px -5px rgba(0, 0, 0, 0.75);
 }
-
 nav ul {
     display: block;
-    margin: 0;
-    /*padding: 0px 0px 0px 20px;*/
-    /*height: 29px;*/
+    margin: 0 0 0 44px;
     list-style: none;
 }
-
 nav ul::after {
     display: block;
     content: '';
     clear: both;
     float: none;
 }
-
 nav ul.menu > li {
     float: left;
     position: relative;
 }
-
 nav ul img {
     margin: 1px 4px;
 }
-
 nav ul.menu > li > a {
     display: block;
-    padding: 5px;
+    padding: 6px 7px;
     margin: 0px 25px 0 20px;
     color: #fff;
     text-decoration: none;
+    font-size: 14px;
 }
-
 ul.menu>li:hover {
     text-decoration: underline;
 }
@@ -159,6 +159,7 @@ ul.submenu > li > a {
     color: #fff;
     background-color: #303030;
     text-decoration: none;
+    font-size: 14px;
 }
 ul.submenu > li > a:hover {
     text-decoration: underline;
@@ -167,9 +168,9 @@ ul.submenu > li > a:hover {
 /*MAIN*/
 
 main {
+    display: flex;
     width: 1000px;
     background: url(../img/MainBackground.jpg) repeat-y;
-    float: left;
     font-size: 15px;
 }
 main p {
@@ -192,6 +193,7 @@ main h4 {
 .news {
     width: 210px;
     float: right;
+    margin: 0 0 10px;
 }
 
 /*COPYRIGHT*/
