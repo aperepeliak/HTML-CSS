@@ -110,11 +110,7 @@ aside ul li a:hover {
 /*TEXT STYLING*/
 
 .content .text {
-    margin: 35px 25px 0;
-}
-
-.content .text p {
-    margin: 0;
+    padding: 35px 25px 0;
     font-size: 13px;
 }
 
@@ -152,11 +148,10 @@ footer nav li a:hover {
     text-decoration: underline;
 }
 
-footer nav p {
+footer p {
     display: inline;
     float: right;
-    font-size: 12px;
-    text-align: center;
     padding: 0px 10px;
-    margin: 12px 0 9px 0;
+    margin: 11px 46px;
+    font-size: 12px;
 }
