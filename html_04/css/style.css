@@ -69,13 +69,13 @@ adress a:hover {
 
 .countries {
     clear: right;
-    float: right;
+    display: flex;
+    justify-content: flex-end;
     margin: 0 35px;
 }
-.countries div {
-    width: 60px;
-    height: 60px;
-    display: inline-block;
+.countries ul {
+    display: flex;
+    list-style: none;
 }
 .countries img {
     margin: 0 9px;
