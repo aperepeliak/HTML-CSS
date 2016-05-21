@@ -1,20 +1,24 @@
-* {
-    padding: 0;
-    margin: 0;
+p,
+h4,
+ul {
+  padding: 0;
+  margin: 0;
 }
+
 body {
     padding: 0;
     margin: 0;
     background-image: url(../img/BackgroundLayer.jpg);
     font-family: Tahoma, sans-serif;
 }
+
 .wrapper {
     width: 1000px;
     margin: 0 auto;
     background-color: #fff;
-    -webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.75);
+    box-shadow: 0 5 15px 0 rgba(0, 0, 0, 0.75);
 }
 
 /*HEADER*/
@@ -28,7 +32,7 @@ body {
 /*LOGO*/
 
 .logo {
-    padding: 12px 0px 0px 28px;
+    padding: 12px 0 0 28px;
     float: left;
     width: 30%;
 }
@@ -37,19 +41,11 @@ body {
     height: 160px;
 }
 
-/*INFO*/
-
-.info {
-    float: right;
-    width: 60%;
-    height: 175px;
-}
-
 /*CONTACTS*/
 
 adress {
     float: right;
-    margin: 10px 33px 30px 0;
+    margin: 10px 33px 22px 0;
     font-size: 12px;
     color: #128aa7;
 }
@@ -69,13 +65,17 @@ adress a:hover {
 
 .countries {
     clear: right;
-    display: flex;
+    float: right;
     justify-content: flex-end;
-    margin: 0 35px;
+    margin: 1px 29px;
+    padding: 6px 0;
 }
 .countries ul {
     display: flex;
     list-style: none;
+}
+.countries ul li {
+    padding: 0 3px;
 }
 .countries img {
     margin: 0 9px;
@@ -100,9 +100,9 @@ adress a:hover {
 nav {
     height: 29px;
     background-image: url(../img/navBar.jpg);
-    -webkit-box-shadow: 0px 6px 10px -5px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 6px 10px -5px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 6px 10px -5px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0 6px 10px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 6px 10px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 6px 10px -5px rgba(0, 0, 0, 0.75);
 }
 nav ul {
     display: block;
@@ -125,7 +125,7 @@ nav ul img {
 nav ul.menu > li > a {
     display: block;
     padding: 6px 7px;
-    margin: 0px 25px 0 20px;
+    margin: 0 25px 0 20px;
     color: #fff;
     text-decoration: none;
     font-size: 14px;
@@ -138,9 +138,9 @@ ul.menu>li:hover {
 
 ul.menu > li:hover > ul.submenu {
     display: block;
-    -webkit-box-shadow: 0px 6px 13px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 6px 13px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 6px 13px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0 6px 13px 0 rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 6px 13px 0 rgba(0, 0, 0, 0.75);
+    box-shadow: 0 6px 13px 0 rgba(0, 0, 0, 0.75);
 }
 ul.submenu {
     display: none;
@@ -148,7 +148,7 @@ ul.submenu {
     width: 160px;
     top: 29px;
     left: 0;
-    margin: 0px 10px;
+    margin: 0 10px;
 }
 ul.submenu > li {
     display: block;
