@@ -8,7 +8,7 @@
 	font-style: normal;
 }
 
-p {
+body {
 	font-family: 'Helvetica Neue';
-	font-weight: bold;
+	background-image: url(../img/background.jpg);
 }
