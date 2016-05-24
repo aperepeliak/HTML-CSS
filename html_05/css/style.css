@@ -105,10 +105,10 @@ nav {
 .info .ola {
 	background-image: url(../img/big_tile.png);
 	height: 36px;
-    padding: 0 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+	padding: 0 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .info .ola a {
@@ -119,43 +119,89 @@ nav {
 
 
 
-/*nav {
-	width: 57%;
-}
 
-.menu {
-	margin: 0;
-	display: inline-flex;
-	justify-content: flex-end;
-	list-style: none;
-	width: 100%;
-}
+/*MAIN*/
 
-.menu li {
-	padding: 9px;
-}
-
-.menu li a{
+main {
+	width: 500px;
+	height: 570px;
+	margin: 70px calc(50% - 274px) 25px;
+	background-color: #fff;
+	background-color: rgba(0,0,0,0.7);
 	color: #fff;
-	text-decoration: none;
+	font-weight: normal;
 }
 
-.menu li a:hover{
-	text-decoration: underline;
-	}*/
+main .name {
+	padding: 15px;
+	border-bottom: 1px solid grey;
+	text-align: center;
+	font-size: 24px;
+	font-weight: normal;
+	color: #fff;
+}
 
+main .facebook {
+	padding: 20px 0;
+	text-align: center;
+}
 
+main .ou {
+	margin: 5px 0 15px;
+	text-align: center;
+	background: url(../img/OU_lines.png) no-repeat center;
+}
 
+/*FORM STYLING*/
 
+form {
+	text-align: center;
+}
 
-	/*MAIN*/
+form .formItem input {
+	width: 276px;
+	height: 36px;
+	padding: 0 0 0 5px;
+	margin: 5px 0;
+	color: #fff;
+	font-weight: normal;
+	border: none;
+	background: url(..//img/input_bgi.png) no-repeat;
+}
 
-	main {
-		width: 500px;
-		height: 570px;
-		margin: 70px calc(50% - 274px) 25px;
-		background-color: #fff;
-		background-color: rgba(0,0,0,0.7);
-	}
+form .formItem input:focus {
+	width: 292px;
+	height: 36px;
+	padding: 0 0 0 20px;
+	margin: 5px 0;
+	outline: none;
+	background: url(../img/active_input.png) no-repeat center;
+}
+
+form .labelItem {
+	text-align: left;
+	width: 300px;
+	margin: 10px 0 20px 115px;
+}
+
+.formSubmit input {
+	width: 151px;
+	height: 35px;
+	padding: 0;
+	border: 0;
+	border-radius: 5px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	background-image: url(../img/CreateAccountButton.png);
+}
+
+main p {
+	margin: 0 auto;
+	padding: 27px;
+	width: 369px;
+	line-height: 1.5;
+	text-align: center;
+}
 
 
