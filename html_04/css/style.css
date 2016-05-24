@@ -42,20 +42,21 @@ body {
 
 /*CONTACTS*/
 
-adress {
+address {
     float: right;
     margin: 10px 33px 22px 0;
     font-size: 12px;
+    font-style: normal;
     color: #128aa7;
 }
-adress p {
+address p {
     padding: 2px;
 }
-adress a {
+address a {
     color: #128aa7;
     text-decoration: none;
 }
-adress a:hover {
+address a:hover {
     color: #900022;
     text-decoration: underline;
 }
