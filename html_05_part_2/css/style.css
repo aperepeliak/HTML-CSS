@@ -1,31 +1,30 @@
 table {
-  border-collapse: collapse;
-
+    margin: 0 auto;
+    border-collapse: collapse;
 }
 
 td {
-  width: 50px;
-  height: 50px;
-  border: 5px solid black;
+    width: 60px;
+    height: 60px;
+    border: 5px solid black;
 }
 
-tfoot td,
-.cheat {
-  border: 0;
+tfoot td, .cheat {
+    border: 0;
 }
 
 .red {
-  background-color: #F50F0F;
+    background-color: #F50F0F;
 }
 
 .yellow {
-  background-color: #FAE317;
+    background-color: #FAE317;
 }
 
 .blue {
-  background-color: #0D11A8;
+    background-color: #0D11A8;
 }
 
 .black {
-  background-color: #000;
+    background-color: #000;
 }
