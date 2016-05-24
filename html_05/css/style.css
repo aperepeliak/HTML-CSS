@@ -2,13 +2,160 @@
 	font-family: 'Helvetica Neue';
 	src: url('../fonts/HelveticaNeue-Thin.eot');
 	src: url('../fonts/HelveticaNeue-Thin.eot?#iefix') format('embedded-opentype'),
-		 url('../fonts/HelveticaNeue-Thin.woff') format('woff'),
-		 url('../fonts/HelveticaNeue-Thin.ttf') format('truetype');
+	url('../fonts/HelveticaNeue-Thin.woff') format('woff'),
+	url('../fonts/HelveticaNeue-Thin.ttf') format('truetype');
 	font-weight: 100;
 	font-style: normal;
-}
+}	
 
 body {
+	height: 100%;
 	font-family: 'Helvetica Neue';
-	background-image: url(../img/background.jpg);
+	font-weight: bold;
+	font-size: 14px;
+	background: url(../img/bgi.jpg) no-repeat center center fixed;
 }
+
+/*HEADER*/
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 36px;
+	width: 100%;
+	display: flex;
+	background-image: url(../img/bgi_nav.png);
+	background-repeat: repeat-x;
+}
+
+
+/*MENU*/
+
+nav {
+	width: 60%;
+
+}
+
+.menu {
+	height: 36px;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	list-style: none;
+}
+
+.menu li {
+	height: 36px;
+	padding: 0 20px;
+	display: flex;
+	align-items: center;
+}
+
+.menu li a {
+	color: #60b5ed;
+	text-decoration: none;
+}
+
+.menu li a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.active {
+	background-image: url(../img/Tile.png);
+}
+
+.menu .active a {
+	color: #fff;
+}
+
+/*INFO BLOCK*/
+
+.info {
+	width: 40%;
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.info div {
+	padding: 0 0 0 20px;
+}
+
+.info .image {
+	padding: 5px 0 0 10px;
+}
+
+.info,
+.info a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.info a:hover {
+	text-decoration: underline;
+}
+
+.info .ola {
+	background-image: url(../img/big_tile.png);
+	height: 36px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info .ola a {
+	padding: 0 6px;
+	text-decoration: underline;
+}
+
+
+
+
+/*nav {
+	width: 57%;
+}
+
+.menu {
+	margin: 0;
+	display: inline-flex;
+	justify-content: flex-end;
+	list-style: none;
+	width: 100%;
+}
+
+.menu li {
+	padding: 9px;
+}
+
+.menu li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	text-decoration: underline;
+	}*/
+
+
+
+
+
+	/*MAIN*/
+
+	main {
+		width: 500px;
+		height: 570px;
+		margin: 70px calc(50% - 274px) 25px;
+		background-color: #fff;
+		background-color: rgba(0,0,0,0.7);
+	}
+
+
