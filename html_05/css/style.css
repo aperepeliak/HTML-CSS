@@ -9,7 +9,7 @@
 }	
 
 body {
-	font-family: 'Helvetica Neue';
+	font-family: 'Helvetica Neue', sans-serif;
 	font-weight: bold;
 	font-size: 14px;
 	background-color: #CCCCCC;
@@ -34,8 +34,7 @@ header {
 	height: 36px;
 	width: 1215px;
 	display: flex;
-	background-image: url(../img/bgi_nav.png);
-	background-repeat: repeat-x;
+	background: url(../img/bgi_nav.png) repeat-x;
 }
 
 
