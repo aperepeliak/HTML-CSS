@@ -116,8 +116,8 @@ figure {
   border-radius: 9px;
   justify-content: center;;
     -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
-  box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
 }
 
 .small_menu a {
@@ -234,18 +234,17 @@ main {
 .catalogue,
 .brands {
   width: 20%;
-  margin: 0 0 0 14px;
+  margin: 6px 3px 0 7px;
 }
 
 .show_products {
   width: 526px;
-  background: -webkit-linear-gradient(top, #e5e7e8, #93a7b0);;;
+  background: -webkit-linear-gradient(top, #e5e7e8, #93a7b0);
   padding: 0px 0 0px 0;
   height: 627px;
   margin: 6px 0 0 2px;
   border: 1px solid #e7ebed;
   border-radius: 3px;
-  /*background: -webkit-linear-gradient(top, #c9cfd1, #234b5d);*/
 }
 
 
@@ -345,7 +344,7 @@ main {
 
 .product_item {
   display: inline-block;
-  margin: 11px 7px 7px 6px;
+  margin: 11px 7px 7px 5px;
 
 }
 
@@ -399,7 +398,7 @@ main {
 }
 
 .bottom {
-  margin: 16px 10px 1px 4px;
+  margin: 16px 9px 1px 4px;
 
 }
 
@@ -414,6 +413,72 @@ main {
 
 }
 
+/*RIGHT SECTION - BRANDS*/
+
+
+.brands {
+
+}
+
+.brands .list {
+
+}
+
+.brands .list h3 {
+  letter-spacing: 0;
+
+}
+
+.brands .subcategory h4 {
+
+}
+
+.brands .sublist {
+  margin: 14px 0 0 16px;
+  width: 134px;
+
+}
+
+.brands .brand_disks {
+  margin: 11px 0px 1px 15px;
+  width: 135px;
+
+}
+
+.brands .list img {
+  padding: 0 6px 1px 4px;
+
+}
+
+.brands .subcategory {
+  position: relative;
+}
+
+.brands .css-checkbox {
+  margin: 6px 0 0 32px;
+
+}
+
+.brands .css-label {
+  font-family: 'Lucida Sans Unicode', sans-serif;
+  font-size: 13px;
+  color: #465961;
+  padding: 0px 0 0 1px;
+
+}
+
+.brands .css_submit {
+  margin: 18px 0 0 26px;
+  width: 80px;
+  border-radius: 9px;
+  height: 24px;
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  color: #fff;
+  padding: 0 4px 0 0px;
+  border: none;
+  background: -webkit-linear-gradient(top, #206988, #0c3256);
+}
 
 
 
