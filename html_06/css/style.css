@@ -10,8 +10,6 @@ section,
 footer,
 aside,
 .forms {
-  border: 1px solid #000;
-  margin: 1px;
 }
 
 figure {
@@ -22,10 +20,12 @@ figure {
 
 .wrapper {
   width: 910px;
-  margin: 21px auto 0;
+  margin: 29px auto 0;
 }
 
 /*HEADER*/
+
+/*BASIC_INFO*/
 
 .basic_info {
   margin: 5px 0 10px -2px;
@@ -50,7 +50,7 @@ figure {
 .login {
   height: 27px;
   width: 495px;
-  margin: -3px 0px 0px 0px;
+  margin: -3px 2px 0px 0px;
   border-radius: 3px;
   background: -webkit-linear-gradient(top, #206988, #0c3256);
   font-family: 'Lucida Sans Unicode';
@@ -110,7 +110,7 @@ figure {
 }
 
 .small_menu {
-  margin: 1px -4px 0 0px;
+  margin: 1px 0px 0 0px;
   width: 74px;
   height: 19px;
   border-radius: 9px;
@@ -123,8 +123,105 @@ figure {
 .small_menu a {
   padding: 0 0px 3px 0px;
   margin: 0 7px 0 0px;
-  
+
 }
+
+/*NAVIGATION & PURCHASES*/
+
+.menu_and_purchases {
+  height: 32px;
+  margin: 3px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #2c345a;
+  border-radius: 4px;
+  background: -webkit-linear-gradient(top, #576068, #000);
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+}
+
+.menu_and_purchases nav {
+  display: flex;
+  width: 75%;
+  height: 100%;
+
+}
+
+nav .menu {;
+  list-style: none;
+  display: flex;
+  width: 100%;
+  margin: 0 0 0 86px;
+  height: 100%;
+  align-items: center;
+
+}
+
+nav .menu li {
+  margin: 0px 17px 0 14px;
+
+}
+
+nav .menu .active {
+  padding: 3px 20px 0;
+  background: -webkit-linear-gradient(top, #206988, #0c3256);
+  border-radius: 12px;
+  height: 24px;
+  width: 84px;
+  margin: 0 0px 0 1px;
+
+}
+
+nav .menu .correction {
+  padding: 0px 0 0 0px;
+}
+
+nav .menu li a {
+  text-decoration: none;
+  font-family: 'Lucida Sans Unicode';
+  font-size: 14px;
+  color: #b1bcc0;
+  letter-spacing: -0.5px;
+  padding: 0px 0 0px 0;
+
+}
+
+.purchases {
+  display: flex;
+  width: 25%;
+
+}
+
+.purchases img {
+
+}
+
+.purchases .buy,
+.purchases .sum {
+  color: #929b9f;
+  font-family: Arial, sans-serif;
+  padding: 1px 0px 0 8px;
+
+}
+
+.purchases .equals {
+  color: #0d5a8f;
+  padding: 0 5px 0 0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*FORMS*/
 
