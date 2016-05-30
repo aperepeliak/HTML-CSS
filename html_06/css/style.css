@@ -1,3 +1,8 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+}
+
 .wrapper,
 header,
 main,
@@ -17,20 +22,109 @@ figure {
 
 .wrapper {
   width: 910px;
-  margin: 18px auto 0;
+  margin: 21px auto 0;
 }
 
 /*HEADER*/
 
 .basic_info {
+  margin: 5px 0 10px -2px;
   display: flex;
-  flex-direction: row;
+  justify-content: space-around;
+}
+
+.contacts,
+.login,
+.small_menu {
+  display: flex;
+  align-items: center;
+}
+
+.contacts .tel {
+  padding: 0px 0px 0px 3px;
+  letter-spacing: 0.5px;
+  font-size: 18px;
+  color: #5e696d;
 }
 
 .login {
+  height: 27px;
+  width: 495px;
+  margin: -3px 0px 0px 0px;
+  border-radius: 3px;
   background: -webkit-linear-gradient(top, #206988, #0c3256);
+  font-family: 'Lucida Sans Unicode';
+  -webkit-box-shadow: 2px 3px 7px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 3px 7px 1px rgba(0,0,0,0.75);
+  box-shadow: 2px 3px 7px 1px rgba(0,0,0,0.75);
 }
 
+.login img {
+  padding: 0px 5px 0 6px;;
+}
+
+.login .data {
+  margin: 0 5px 3px 1px;
+  width: 111px;
+  height: 14px;
+  border-radius: 2px;
+  border: none;
+}
+
+.login .submit {
+  padding: 0 0 0 1px;
+  background-color: rgba(0,0,0,0);
+  border: none;
+  color: #fff;
+  letter-spacing: -0.5px;
+}
+
+::-webkit-input-placeholder {
+  padding: 0 0 0 3px;
+  letter-spacing: -1.1px
+}
+
+.login .register
+ {
+  padding: 0 0 1px 1px;
+  color: #fff;
+  letter-spacing: -1.5px;
+}
+
+.login .register a {
+  padding: 0 0 0px 0px;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: -0.3px;
+}
+
+.login .forgot {
+  margin: 0 0px 2px -4px;
+
+}
+
+.login .forgot a {
+  margin: 0px 0px 0px 21px;
+  color: #bfbfbf;
+  padding: 0px 0px 0px 0px;
+}
+
+.small_menu {
+  margin: 1px -4px 0 0px;
+  width: 74px;
+  height: 19px;
+  border-radius: 9px;
+  justify-content: center;;
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+}
+
+.small_menu a {
+  padding: 0 0px 3px 0px;
+  margin: 0 7px 0 0px;
+  
+}
 
 /*FORMS*/
 
