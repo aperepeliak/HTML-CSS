@@ -50,7 +50,7 @@ figure {
   margin: -3px 2px 0 0;
   border-radius: 3px;
   background: -webkit-linear-gradient(top, #206988, #0c3256);
-  font-family: 'Lucida Sans Unicode', sans-serif;
+  font-family: 'Lucida Sans Unicode', 'Lucida Sans Regular', 'Lucida Sans', Arial, sans-serif;
   -webkit-box-shadow: 2px 3px 7px 1px rgba(0,0,0,0.75);
   -moz-box-shadow: 2px 3px 7px 1px rgba(0,0,0,0.75);
   box-shadow: 2px 3px 7px 1px rgba(0,0,0,0.75);
@@ -184,7 +184,7 @@ nav .menu .correction {
 nav .menu li a {
   padding: 0;
   text-decoration: none;
-  font-family: 'Lucida Sans Unicode', sans-serif;
+  font-family: 'Lucida Sans Unicode', 'Lucida Sans Regular', 'Lucida Sans', Arial, sans-serif;
   font-size: 14px;
   letter-spacing: -0.5px;
   color: #b1bcc0;
@@ -274,7 +274,7 @@ main {
 
 .list h3 {
   padding: 2px 0 0 0;
-  font-family: 'Lucida Sans Unicode', sans-serif;
+  font-family: 'Lucida Sans Unicode', 'Lucida Sans Regular', 'Lucida Sans', Arial, sans-serif;
   font-size: 13px;
   color: #114165;
   letter-spacing: -0.5px;
@@ -299,7 +299,7 @@ main {
 }
 
 .subcategory h4 {
-  font-family: 'Lucida Sans Unicode', sans-serif;
+  font-family: 'Lucida Sans Unicode', 'Lucida Sans Regular', 'Lucida Sans', Arial, sans-serif;
   font-size: 14px;
   color: #114165;
 }
@@ -313,7 +313,7 @@ main {
 
 .subcategory ul li a {
   text-decoration: none;
-  font-family: 'Lucida Sans Unicode', sans-serif;
+  font-family: 'Lucida Sans Unicode', 'Lucida Sans Regular', 'Lucida Sans', Arial, sans-serif;
   font-size: 13px;
   color: #465961;
 }
@@ -352,7 +352,7 @@ main {
 .brand_name {
   margin: 0 2px 0 16px;
   display: block;
-  font-family: 'Lucida Sans Unicode', sans-serif;
+  font-family: 'Lucida Sans Unicode', 'Lucida Sans Regular', 'Lucida Sans', Arial, sans-serif;
   font-size: 15px;
   font-weight: bold;
   text-align: center;
@@ -364,7 +364,7 @@ main {
   padding: 0;
   margin: -8px 1px 5px 19px;
   display: block;
-  font-family: 'Lucida Sans Unicode', sans-serif;
+  font-family: 'Lucida Sans Unicode', 'Lucida Sans Regular', 'Lucida Sans', Arial, sans-serif;
   font-size: 13px;
   text-decoration: none;
   text-align: center;
@@ -414,7 +414,7 @@ main {
 
 .product_item figcaption {
   margin: -4px 0 0 17px;
-  font-family: 'Arial', sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 16px;
   font-style: italic;
   font-weight: bold;
@@ -448,7 +448,7 @@ main {
 
 .brands .css-label {
   padding: 0 0 0 1px;
-  font-family: 'Lucida Sans Unicode', sans-serif;
+  font-family: 'Lucida Sans Unicode', 'Lucida Sans Regular', 'Lucida Sans', Arial, sans-serif;
   font-size: 13px;
   color: #465961;
 
