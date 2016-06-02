@@ -20,7 +20,7 @@ figure {
 /*BASIC_INFO*/
 
 .basic_info,
-.contacts,
+address,
 .login,
 .small_menu {
   display: flex;
@@ -31,16 +31,17 @@ figure {
   justify-content: space-around;
 }
 
-.contacts,
+address,
 .login,
 .small_menu {
   align-items: center;
 }
 
-.contacts .tel {
+address .tel {
   padding: 0 0 0 3px;
   letter-spacing: 0.5px;
   font-size: 18px;
+  font-style: normal;
   color: #5e696d;
 }
 
