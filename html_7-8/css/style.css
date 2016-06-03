@@ -1,0 +1,43 @@
+/*GENERAL PROPERTIES*/
+
+@font-face {
+	font-family: 'League Gothic';
+	src: url('../fonts/LeagueGothic-Regular.eot');
+	src: url('../fonts/LeagueGothic-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/LeagueGothic-Regular.woff') format('woff'),
+		url('../fonts/LeagueGothic-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+
+
+/*RESPONSIVE PROPERTIES*/
+
+@media(min-width: 960px) {
+body {
+		background-color: yellow;
+	}
+}
+
+@media(max-width: 959px) {
+body {
+		background-color: blue;
+	}
+}
+
+@media(max-width: 767px) {
+body {
+		background-color: red;
+	}
+}
+
+@media (max-width: 479px) {
+	body {
+		background-color: green;
+	}
+}
+
+
