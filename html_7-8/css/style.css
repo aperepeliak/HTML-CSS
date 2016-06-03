@@ -236,11 +236,21 @@ footer {
 		margin: 70px 0 40px;
 	}
 
+	/*MENU*/
+	.menu {
+		position: relative;
+		display: block;
+	}
+
 	.menu__item {
 		display: none;
 	}
 
 	.menu__item--selected {
 		display: flex;
+	}
+
+	.menu__item--selected:hover .menu__item {
+		display: block;
 	}
 }
