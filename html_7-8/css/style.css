@@ -56,6 +56,10 @@ header {
 	background-color: #ececec;
 }
 
+footer {
+	background-image: url(../img/footer_bg1.jpg);
+}
+
 
 
 /*MENU*/
@@ -63,10 +67,11 @@ header {
 .menu {
     list-style: none;
     display: flex;
+    margin: 0;
 }
 
 .menu__item {
-    margin: 5px;
+    margin: 0 5px;
 }
 
 .menu__link {
@@ -86,24 +91,38 @@ header {
     body {
         background-color: yellow;
     }
+
+    header,
+    .about,
+    .testmnl_and_blog,
+    .logos,
+    .texts,
+    footer {
+    	padding: 0 calc(50% - 480px);
+    }
+
     header {
     	height: 846px;
-        padding: 0 calc(50% - 480px);
     }
 
     .about {
     	height: 339px;
-    	padding: 0 calc(50% - 480px);
     }
 
     .testmnl_and_blog {
     	height: 486px;
-    	padding: 0 calc(50% - 480px);    	
     }
 
     .logos {
     	height: 118px;
-    	padding: 0 calc(50% - 480px);
+    }
+
+    .texts {
+    	height: 396px;
+    }
+
+    footer {
+    	height: 114px;
     }
 }
 
@@ -132,6 +151,16 @@ header {
 
     .logos {
     	height: 118px;
+    	padding: 0 calc(50% - 400px);
+    }
+
+    .texts {
+    	height: 396px;
+    	padding: 0 calc(50% - 400px);
+    }
+
+    footer {
+    	height: 201px;
     	padding: 0 calc(50% - 400px);
     }
 }
@@ -167,6 +196,11 @@ header {
     	height: 668px;
     	padding: 0 calc(50% - 240px);
     }
+
+    footer {
+    	height: 201px;
+    	padding: 0 calc(50% - 240px);
+    }
 }
 
 
@@ -196,6 +230,15 @@ header {
     }
 
     .texts {
+    	display: none;
+    }
+
+    footer {
+    	height: 201px;
+    	padding: 0 calc(50% - 160px);
+    }
+
+    footer .menu {
     	display: none;
     }
 }
