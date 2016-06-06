@@ -24,12 +24,13 @@ h3 {
 
 header {
     border-bottom: 1px solid #37293e;
-    background-image: url(../img/header_bg.jpg);
+    background: url(../img/header_bg.jpg);
 }
 
 .dropdown {
     display: none;
 }
+
 
 .about {
     background: rgba(116, 80, 131, 1);
@@ -79,7 +80,7 @@ footer {
 }
 
 .menu__item {
-    margin: 0 0px;
+    margin: 0;
 }
 
 .menu__link {
@@ -89,6 +90,267 @@ footer {
     color: #fff;
     text-shadow: 1px 1px 1px #000;
 }
+
+/*SLIDER*/
+
+.content__header {
+	font-family: 'League Gothic', serif;
+    font-size: 36px;
+    font-weight: normal;
+    color: #fff;
+    text-shadow: 1px 0 1px #000;
+}
+
+.content__subheader {
+	font-size: 18px;
+	color: #edbfff;
+	font-weight: normal;
+	text-shadow: 1px 0 1px #000;
+}
+
+.content__text {
+	font-family: 'MyriadPro', 'Open Sans', sans-serif;
+	color: #fff;
+	font-size: 16px;
+	text-shadow: 1px 0 1px #000;
+}
+
+
+/*MARKERS*/
+
+.markers {
+	margin: 40px 52px;
+}
+
+.markers_item {
+	width: 17px;
+	height: 17px;
+	display: inline-block;
+	border-radius: 17px 17px;
+	background-color: rgba(0,0,0,0.4);
+}
+
+.markers_item:hover {
+	background-image: url(../img/white_marker.png);
+	background-position: center center;
+}
+
+.markers_item--active {
+	background-image: url(../img/white_marker.png);
+	background-position: center center;
+}
+
+/*ABOUT*/
+
+main .about {
+	box-sizing: border-box;
+	padding-top: 70px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.fish {
+	display: flex;
+}
+
+.fish__sprite--tool {
+	background: url('../img/about_sprite2.png') no-repeat 0 0;
+	width: 30px;
+	height: 31px;
+}
+
+.fish__sprite--sky {
+	background: url('../img/about_sprite2.png') no-repeat -52px -2px;
+	width: 33px;
+	height: 29px;
+}
+
+.fish__sprite--note {
+	background: url('../img/about_sprite2.png') no-repeat -108px -1px;
+	width: 29px;
+	height: 31px;
+}
+
+.fish__content {
+    padding: 6px 15px;
+}
+
+.fish__header {
+	color: #fff;
+	font-weight: normal;
+	text-shadow: 1px 1px 1px #000;
+}
+
+.fish__paragraph {
+	height: 65px;
+	width: 210px;
+	overflow: hidden;
+	font-family: 'MyriadPro', 'Open Sans', sans-serif;
+	color: #fff;
+	font-size: 16px;
+	text-shadow: 1px 1px 1px #000;
+}
+
+.fish__link {
+	font-family: 'League Gothic', serif;
+	text-decoration: none;
+	color: #fff;
+	display: flex;
+	justify-content: flex-end;
+	text-shadow: 1px 1px 1px #000;
+}
+
+.fish__link:hover {
+	text-shadow: 0 0 3px #fff;
+	text-decoration: none;
+}
+
+/*TESTIMONIALS & BLOG*/
+
+.testmnl_and_blog {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.testimonials {
+	position: relative;
+	margin-top: 70px;
+}
+
+.fish--tstmnls {
+	box-sizing: border-box;
+	height: 272px;
+	width: 255px;
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	
+}
+
+.fish__image {
+	position: absolute;
+	top: 10px;
+	left: -25px;
+}
+
+.fish__header--tst {
+    padding: 0 35px 0;
+    font-family: 'League Gothic', serif;
+	font-size: 24px;
+	color: #454545;
+	text-shadow: none;
+}
+
+.salmon {
+	font-family: 'League Gothic', serif;
+	color: #edbfff;
+	font-size: 24px;
+}
+
+.fish__paragraph--tst {
+	height: 155px;
+	width: 190px;
+	margin-top: 0;
+	padding-left: 35px;
+	color: #454545;
+	text-shadow: none;
+	overflow: hidden;
+	word-wrap: break-word;
+	font-family: 'Open Sans Light', sans-serif;
+}
+
+ /*WHITE MARKERS*/
+
+ .markers--white {
+ 	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+ }
+
+ .markers_item--white {
+ 	margin-right: 3px;
+ 	border: 1px solid #e7e7e7;
+ 	background-color: #fff;
+ }
+
+ .markers_item--active--white {
+ 	margin-right: 3px;
+ 	border: 1px solid #e7e7e7;
+ 	background: url(../img/marker--black.png) no-repeat;
+ 	background-position: center center;
+ }
+
+ .markers_item--white:hover {
+ 	background: url(../img/marker--black.png) center center no-repeat;
+ }
+
+ .posts {
+	
+ }
+
+ .posts__caption {
+	font-size: 30px;
+	font-weight: normal;
+	color: #454545;
+ }
+
+ .post {
+ 	margin: 20px 0 0 0;
+	display: flex;
+	align-items: center;
+ }
+
+ .post__image {
+	margin-right: 15px;
+ }
+
+ .post__content {
+
+ }
+
+ .post__caption {
+ 	padding-bottom: 5px;
+ 	height: 20px;
+ 	width: 160px;
+ 	overflow: hidden;
+ 	font-family: 'Open Sans Extrabold', sans-serif;
+ 	font-size: 16px;
+	margin: 0;
+	color: #454545;
+ }
+
+ .post__paragraph {
+ 	height: 20px;
+ 	width: 212px;
+	margin: 0;
+	overflow: hidden;
+	color: #454545;
+	font-weight: 100;
+	letter-spacing: -0.5px;
+ }
+
+
+.readMore {
+	font-family: 'League Gothic', serif;
+	font-size: 18px;
+	font-weight: normal;
+	text-decoration: none;
+	color: #454545;
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 10px;
+}
+
+.readMore:hover {
+	text-decoration: underline;
+}
+
+
 
 
 /*RESPONSIVE PROPERTIES*/
@@ -225,6 +487,7 @@ footer {
     footer {
         height: 201px;
     }
+
     /*DISABLED CONTENT*/
     .content__text {
         display: none;
@@ -238,6 +501,7 @@ footer {
     footer .menu {
         display: none;
     }
+
     /*LOGO & NAV Styling*/
     .logo_and_nav {
         display: flex;
@@ -245,7 +509,7 @@ footer {
         align-items: center;
     }
     .logo {
-        margin: 70px 0 40px;
+        margin: 70px 0 25px;
     }
 
 
@@ -325,6 +589,27 @@ footer {
     	border-radius: 10px 10px 0 0;
     	background: rgba(54,41,62,0.8);
     }
+
+    /*Slider*/
+
+    .slider {
+    	margin:  91px 0 0 50px;
+    	padding: 15px;
+    }
+
+    .content {
+		
+    }
+
+    .content__header {
+		
+    }
+
+
+    .content__text {
+    }
+
+
 
     
 
