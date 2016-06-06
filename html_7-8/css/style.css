@@ -93,6 +93,8 @@ footer {
 
 /*RESPONSIVE PROPERTIES*/
 
+/*960 px*/
+
 @media(min-width: 960px) {
     body {
         background-color: yellow;
@@ -124,6 +126,8 @@ footer {
         height: 114px;
     }
 }
+
+/*768 px*/
 
 @media(max-width: 959px) {
     body {
@@ -157,6 +161,8 @@ footer {
     }
 }
 
+/*480 px*/
+
 @media(max-width: 767px) {
     body {
         background-color: red;
@@ -188,6 +194,8 @@ footer {
         height: 201px;
     }
 }
+
+/*320 px*/
 
 @media (max-width: 479px) {
     body {
