@@ -218,6 +218,7 @@ main .about {
 .testimonials {
 	position: relative;
 	margin-top: 70px;
+
 }
 
 .fish--tstmnls {
@@ -229,7 +230,9 @@ main .about {
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
-	
+	-webkit-box-shadow: 0 0 5px 0 rgba(239,239,239,1);
+	-moz-box-shadow: 0 0 5px 0 rgba(239,239,239,1);
+	box-shadow: 0 0 5px 0 rgba(239,239,239,1);
 }
 
 .fish__image {
@@ -289,10 +292,6 @@ main .about {
  	background: url(../img/marker--black.png) center center no-repeat;
  }
 
- .posts {
-	
- }
-
  .posts__caption {
 	font-size: 30px;
 	font-weight: normal;
@@ -307,10 +306,6 @@ main .about {
 
  .post__image {
 	margin-right: 15px;
- }
-
- .post__content {
-
  }
 
  .post__caption {
@@ -334,7 +329,6 @@ main .about {
 	letter-spacing: -0.5px;
  }
 
-
 .readMore {
 	font-family: 'League Gothic', serif;
 	font-size: 18px;
@@ -350,7 +344,74 @@ main .about {
 	text-decoration: underline;
 }
 
+/*LOGOS*/
 
+.logos {
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.sprite-box {
+	margin: 0 20px 0 20px;
+}
+
+.billabong {
+	background: url('../img/spritesheet.png') no-repeat -147px -5px;
+	width: 69px;
+	height: 64px;
+}
+
+.dc {
+	background: url('../img/spritesheet.png') no-repeat -65px -5px;
+	width: 72px;
+	height: 64px;
+}
+
+.tree {
+	background: url('../img/spritesheet.png') no-repeat -118px -79px;
+	width: 65px;
+	height: 64px;
+}
+
+.awsm {
+	margin-left: 25px;
+	background: url('../img/spritesheet.png') no-repeat -5px -5px;
+	width: 50px;
+	height: 63px;
+}
+
+.rvca {
+	background: url('../img/spritesheet.png') no-repeat -5px -79px;
+	width: 103px;
+	height: 21px;
+}
+
+.vonzipper {
+	background: url('../img/spritesheet.png') no-repeat -5px -110px;
+	width: 78px;
+	height: 61px;
+}
+
+/*FOOTER*/
+
+.designed {
+	box-sizing: border-box;
+	text-align: center;
+	margin: 0;
+	padding-top: 40px;
+	color: #fff;
+	font-family: 'Open Sans Light', sans-serif;
+	font-size: 12px;
+	text-shadow: 1px 1px 1px #000;
+}
+
+.extra {
+	font-size: 12px;
+	font-family: 'Open Sans extrabold';
+}
 
 
 /*RESPONSIVE PROPERTIES*/
