@@ -609,6 +609,37 @@ main .about {
     	margin: 37px 200px 0 0;
     }
 
+    /*ABOUT*/
+
+    main .about {
+    	flex-direction: row;
+    	justify-content: space-around;
+    	padding-top: 20px;
+    }
+
+	.fish__content {
+		
+	}
+
+	.fish__header {
+
+	}
+
+	.fish__paragraph {
+		height: 135px;
+		width: 150px;
+	}
+
+	.fish__link {
+
+	}
+
+	.fish__link:hover {
+
+	}
+
+
+
 
 
 
