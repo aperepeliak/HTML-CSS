@@ -617,27 +617,50 @@ main .about {
     	padding-top: 20px;
     }
 
-	.fish__content {
-		
-	}
-
-	.fish__header {
-
-	}
-
 	.fish__paragraph {
 		height: 135px;
 		width: 150px;
 	}
 
-	.fish__link {
+	/*TESTIMONIALS & BLOG*/
 
+	.testmnl_and_blog {
+		flex-direction: row;
+		justify-content: space-around;
 	}
 
-	.fish__link:hover {
-
+	.testimonials {
+		margin-top: 50px;
 	}
 
+	.fish--tstmnls {
+		width: 313px;
+	}
+
+	.fish__paragraph--tst {
+		width: 250px;
+	}
+
+	.posts__caption {
+		margin-bottom: 20px;
+	}
+
+	.posts {
+		margin-top: 40px;
+		width: 324px;
+	}
+
+	.post__caption {
+		width: 260px;
+	}
+
+	.post__paragraph {
+		width: 250px;
+	}
+
+	.markers--white {
+		margin: 20px 52px 40px;
+	}
 
 
 
