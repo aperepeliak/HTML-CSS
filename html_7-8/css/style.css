@@ -117,7 +117,7 @@ footer {
 }
 
 .content__text {
-    font-family: 'MyriadPro', 'Open Sans', sans-serif;
+    font-family:'Open Sans Light', sans-serif;
     color: #fff;
     font-size: 16px;
     text-shadow: 1px 0 1px #000;
@@ -494,6 +494,8 @@ main .about {
     body {
         background-color: blue;
     }
+
+    /*BASIC SIZES AND PADDINGS*/
     header,
     .about,
     .testmnl_and_blog,
@@ -520,6 +522,96 @@ main .about {
     footer {
         height: 201px;
     }
+
+
+    /*HEADER*/
+    header {
+        background: url(../img/line_bg_768.png) 0 244px no-repeat, url(../img/header_bg.jpg);
+    }
+
+    /*LOGO & NAV Styling*/
+	.logo_and_nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo {
+    	margin-top: 70px;
+    }
+
+    .menu {
+    	margin-top: 35px;
+    }
+
+    .menu__item {
+    	margin-right: 50px;
+    }
+
+    .menu__link--selected {
+    	border-bottom: 2px solid #edbfff;
+    }
+
+    .menu__link:hover {
+    	background: none;
+    	border-bottom: 2px solid #edbfff;
+    }
+
+    /*SLIDER*/
+    figure {
+    	padding: 0;
+    	margin: -20px 0 0 145px;
+    	width: 274px;
+    	height: 434px;
+    	background-image: url(../img/iphone.png);
+    }
+
+    .slider {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .wrapper {
+    	margin-top: 69px;
+        height: 401px;
+        width: 100%;
+        display: flex;
+    }
+
+    .content {
+    	width: 275px;
+        margin-top: 100px;
+    }
+
+    .content__header {
+		font-size: 48px;
+    }
+
+    .content__subheader {
+    	width: 270px;
+    	height: 25px;
+		font-size: 24px;
+
+    }
+
+    .content__text {
+    	width: 275px;
+    	margin: 15px 0;
+    	height: 90px;
+    	overflow: hidden;
+    }
+
+    .markers {
+    	align-self: flex-end;
+    	margin: 37px 200px 0 0;
+    }
+
+
+
+
 }
 
 
@@ -649,6 +741,7 @@ main .about {
         border-radius: 10px 10px 0 0;
         background: rgba(54, 41, 62, 0.8);
     }
+
     /*SLIDER*/
     .slider {
         box-sizing: border-box;
@@ -663,6 +756,13 @@ main .about {
         width: 100%;
         display: flex;
     }
+
+    figure {
+    	width: 192px;
+    	height: 304px;
+    	background-image: url(../img/iphone_small.png);
+    }
+
     /*ABOUT*/
     .fish__paragraph {
         width: 380px;
