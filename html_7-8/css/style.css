@@ -523,6 +523,14 @@ main .about {
         height: 201px;
     }
 
+    /*DISABLED CONTENT*/
+
+    .pingbuller {
+        display: none;
+    }
+    .copyright {
+        display: none;
+    }
 
     /*HEADER*/
     header {
@@ -662,10 +670,76 @@ main .about {
 		margin: 20px 52px 40px;
 	}
 
+	/*LOGOS*/
+	.logos {
+		justify-content: space-around;
+	}
 
+	/*TEXTS*/
 
+	.texts {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
 
+    .fish--texts {
+    	width: 204px;
+    	height: 200px;
+    	padding: 0 25px;
+    	margin: 0;
+    }
 
+    .fish__paragraph--texts {
+      width: 204px;
+      height: 155px;
+    }
+
+    /*FOOTER*/
+
+    .menu--bottom {
+		margin: 0 0 0 25px;
+    	padding: 0;
+    }
+
+    .menu__item--bottom {
+    	display: inline;
+		border: none;
+		margin-right: 20px;
+    }
+
+    .menu__link--bottom {
+    	height: 30px;
+    	display: inline-block;
+    	box-sizing: border-box;
+    	margin: 50px 10px 0;
+    	padding: 0;
+		font-size: 20px;
+    }
+
+    .menu--bottom:hover {
+		border: none;
+    	background: none;
+    }
+
+    .menu__item--bottom:hover {
+    	text-decoration: none;
+    	border: none;
+    	background: none;
+    }
+
+    .menu__link--bottom:hover {
+    	background: none;
+    	border-bottom: 2px solid #edbfff;
+    }
+
+    .designed {
+    	float: right;
+    	padding-top: 20px;
+    	margin-right: 10%;
+    }
 }
 
 
