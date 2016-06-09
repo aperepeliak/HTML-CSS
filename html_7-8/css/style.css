@@ -593,6 +593,10 @@ main .about {
     	padding-top: 20px;
     }
 
+    .fish__header {
+    	font-size: 30px;
+    }
+
 	.fish__paragraph {
 		height: 110px;
 		width: 230px;
@@ -614,6 +618,10 @@ main .about {
 		width: 428px;
 	}
 
+	.fish__header--tst {
+		margin-bottom: 10px;
+	}
+
 	.fish__paragraph--tst {
 		width: 350px;
 		height: 160px;
@@ -621,6 +629,7 @@ main .about {
 
 	.salmon {
 		display: inline;
+		font-size: 30px;
 	}
 
 	.posts {
@@ -647,6 +656,66 @@ main .about {
 		margin-right: 4%;
 	}
 
+	/*LOGOS*/
+
+	.sprite-box {
+		margin: 0 35px;
+	}
+
+	/*TEXTS*/
+
+	.fish__header--disabled {
+    	display: none;
+    }
+
+    .pingbuller {
+    	margin: 0;
+		font-size: 48px;
+		font-family: 'League Gothic', serif;
+		color: #454545;
+		text-shadow: 1px 1px 1px #fff, 1px 0 1px #eee;
+    }
+
+    .er {
+		font-size: 48px;
+		font-family: 'League Gothic', serif;
+		color: #b9b9b9;
+		text-shadow: 1px 1px 1px #fff, 1px 0 1px #eee;
+    }
+
+   
+    .copyright {
+    	margin: 5px 0;
+		font-family: Georgia, serif;
+		font-size: 16px;
+		font-style: italic;
+		color: #c5c5c5;
+		text-shadow: 1px 1px #fff;
+    }
+
+	.texts {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fish--texts {
+    	width: 285px;
+    	height: 200px;
+    	padding: 0 25px;
+    	margin: 0;
+    }
+
+    .fish__header--texts {
+    	padding-bottom: 6px;
+    }
+
+    .fish__paragraph--texts {
+      width: 100%;
+      height: 155px;
+    }
 
 
 
