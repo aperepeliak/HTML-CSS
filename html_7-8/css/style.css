@@ -24,7 +24,7 @@ h3 {
 
 header {
     border-bottom: 1px solid #37293e;
-    background: url(../img/header_bg.jpg);
+    background: url(../img/header_bg.jpg) -992px 0px;
 }
 
 .dropdown {
@@ -94,7 +94,7 @@ footer {
 /*SLIDER*/
 
 .slider {
-    margin: 91px 0 0 50px;
+    margin: 92px 0 0 50px;
     padding: 15px;
 }
 
@@ -104,6 +104,7 @@ footer {
     font-weight: normal;
     color: #fff;
     text-shadow: 1px 1px 1px #000;
+    padding-top: 6px;
 }
 
 .content__subheader {
@@ -127,7 +128,7 @@ footer {
 /*MARKERS*/
 
 .markers {
-    margin: 40px 52px;
+    margin: 77px 58px 0;
 }
 
 .markers_item {
@@ -184,7 +185,7 @@ main .about {
 .fish__content {
 	display: flex;
 	flex-direction: column;
-    padding: 0 15px 25px;
+    padding: 0 11px 25px;
 }
 
 .fish__header {
@@ -290,6 +291,7 @@ main .about {
     margin-top: 20px;
     display: flex;
     justify-content: center;
+    margin-bottom: 45px;
 }
 
 .markers_item--white {
@@ -375,7 +377,7 @@ main .about {
     box-sizing: border-box;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;;
     flex-wrap: wrap;
 }
 
@@ -482,23 +484,23 @@ main .about {
         height: 846px;
     }
     .about {
-        height: 339px;
+        height: 340px;
     }
     .testmnl_and_blog {
-        height: 486px;
+        height: 488px;
     }
     .logos {
-        height: 118px;
+        height: 120px;
     }
     .texts {
-        height: 396px;
+        height: 397px;
     }
     footer {
         height: 114px;
     }
 
     header {
-        background: url(../img/line_bg_768.png) 0 278px no-repeat, url(../img/header_bg.jpg);
+        background: url(../img/line_bg_768.png) 0 278px no-repeat, url(../img/header_bg.jpg) -570px 0px;
     }
 
     /*LOGO & NAV Styling*/
@@ -534,7 +536,7 @@ main .about {
     /*SLIDER*/
     figure {
     	padding: 0;
-    	margin: -20px 0 0 145px;
+    	margin: -20px 0 0 111px;
     	width: 274px;
     	height: 434px;
     	background-image: url(../img/iphone.png);
@@ -558,17 +560,19 @@ main .about {
 
     .content {
     	width: 505px;
-        margin-top: 83px;
+        margin-top: 71px;
     }
 
     .content__header {
 		font-size: 60px;
+		padding: 0;
     }
 
     .content__subheader {
     	width: 100%;
     	height: 35px;
 		font-size: 32px;
+    	margin: -8px 0 -9px 0;
 
     }
 
@@ -593,6 +597,10 @@ main .about {
     	flex-direction: row;
     	justify-content:space-between;
     	padding-top: 20px;
+    }
+
+    .fish__sprite {
+    	    margin: 10px 0px 0 11px;
     }
 
     .fish__header {
@@ -671,7 +679,7 @@ main .about {
     }
 
     .pingbuller {
-    	margin: 0;
+    	margin: -9px 0 9px 0;
 		font-size: 48px;
 		font-family: 'League Gothic', serif;
 		color: #454545;
@@ -796,16 +804,16 @@ main .about {
         height: 798px;
     }
     .about {
-        height: 340px;
+        height: 341px;
     }
     .testmnl_and_blog {
-        height: 486px;
+        height: 488px;
     }
     .logos {
-        height: 118px;
+        height: 120px;
     }
     .texts {
-        height: 396px;
+        height: 397px;
     }
     footer {
         height: 201px;
@@ -822,7 +830,7 @@ main .about {
 
     /*HEADER*/
     header {
-        background: url(../img/line_bg_768.png) 0 244px no-repeat, url(../img/header_bg.jpg);
+        background: url(../img/line_bg_768.png) 0 244px no-repeat, url(../img/header_bg.jpg) -753px 0px;
     }
 
     /*LOGO & NAV Styling*/
@@ -836,7 +844,7 @@ main .about {
     }
 
     .menu {
-    	margin-top: 35px;
+    margin-top: 28px;
     }
 
     .menu__item {
@@ -879,23 +887,25 @@ main .about {
 
     .content {
     	width: 275px;
-        margin-top: 100px;
+        margin-top: 94px;
     }
 
     .content__header {
 		font-size: 48px;
+		padding: 0px 0px 0px 23px;
     }
 
     .content__subheader {
     	width: 270px;
     	height: 25px;
 		font-size: 24px;
+    	padding: 0 0 0 22px;
 
     }
 
     .content__text {
     	width: 275px;
-    	margin: 15px 0;
+    	margin: 15px 22px;
     	height: 90px;
     	overflow: hidden;
     }
@@ -992,8 +1002,8 @@ main .about {
     /*FOOTER*/
 
     .menu--bottom {
-		margin: 0 0 0 25px;
     	padding: 0;
+    	margin: 0;
     }
 
     .menu__item--bottom {
@@ -1006,7 +1016,7 @@ main .about {
     	height: 30px;
     	display: inline-block;
     	box-sizing: border-box;
-    	margin: 50px 10px 0;
+    	margin: 44px 23px 0 0px;
     	padding: 0;
 		font-size: 20px;
     }
@@ -1029,8 +1039,8 @@ main .about {
 
     .designed {
     	float: right;
-    	padding-top: 20px;
-    	margin-right: 10%;
+    	padding-top: 26px;
+    	margin-right: 9%;
     }
 }
 
@@ -1054,16 +1064,16 @@ main .about {
         height: 548px;
     }
     .about {
-        height: 596px;
+        height: 597px;
     }
     .testmnl_and_blog {
-        height: 786px;
+        height: 788px;
     }
     .logos {
-        height: 230px;
+        height: 232px;
     }
     .texts {
-        height: 668px;
+        height: 669px;
     }
     footer {
         height: 201px;
@@ -1080,7 +1090,7 @@ main .about {
     }
     /*HEADER*/
     header {
-        background: url(../img/line_bg_480.png) 0 203px no-repeat, url(../img/header_bg.jpg);
+        background: url(../img/line_bg_480.png) 0 203px no-repeat, url(../img/header_bg.jpg) -836px 0px;
     }
     .content {
         margin-top: 100px;
@@ -1128,7 +1138,7 @@ main .about {
     .menu__link {
         padding-top: 5px;
         display: block;
-        height: 35px;
+        height: 29px;
     }
     .menu__link:hover {
         border-bottom: 2px solid #edbfff;
@@ -1175,6 +1185,7 @@ main .about {
         height: 246px;
         width: 100%;
         display: flex;
+        padding: 0px 0px 0px 40px;
     }
 
     figure {
@@ -1262,7 +1273,7 @@ main .about {
     }
 
     .designed {
-    	padding-top: 20px;
+    	padding-top: 27px;
     }
 }
 
@@ -1283,13 +1294,13 @@ main .about {
         height: 516px;
     }
     .about {
-        height: 596px;
+        height: 597px;
     }
     .testmnl_and_blog {
-        height: 786px;
+        height: 788px;
     }
     .logos {
-        height: 420px;
+        height: 422px;
     }
     footer {
         height: 201px;
@@ -1315,6 +1326,9 @@ main .about {
     }
     .logo {
         margin: 70px 0 25px;
+    }
+    .content__header {
+    	padding-top: 0;
     }
     /*DROPDOWN MENU*/
     .menu {
@@ -1350,7 +1364,7 @@ main .about {
     .menu__link {
         padding-top: 5px;
         display: block;
-        height: 35px;
+        height: 30px;
     }
     .menu__link:hover {
         border-bottom: 2px solid #edbfff;
