@@ -1,10 +1,10 @@
-/*HEADER*/
 
 * {
     margin: 0;
     padding: 0;
 }
 
+/*HEADER*/
 header {
     height: 646px;
     background-image: url(../img/header_bg.jpg);
@@ -31,13 +31,16 @@ footer {
     background-image: url(../img/footer_bg1.jpg);
 }
 
+
+/*LOGO & NAV*/
+
 .logo_and_nav {
     overflow: hidden;
     margin-bottom: 100px;
 }
 
 .logo {
-    margin: 20px;
+    margin: 20px 60px;
     float: left;
 }
 
@@ -86,8 +89,7 @@ figure {
 }
 
 .wrapper {
-    margin: 30px 20px;
-    /*overflow: hidden;*/
+    margin: 30px 60px;
 }
 
 .content {
@@ -411,21 +413,22 @@ main .about {
     color: #c5c5c5;
 }
 
+
 /*FOOTER*/
 
 .menu--bottom {
-	margin: 0 0 0 70px;
-	padding-top: 40px;	
+    margin: 0 0 0 70px;
+    padding-top: 40px;
 }
 
 .menu__link--bottom {
-		font-size: 16px;
-    }
+    font-size: 16px;
+}
 
 .designed {
-	float: right;
-	margin-right: 15%;
-	font-family: Arial, sans-serif;
+    float: right;
+    margin-right: 15%;
+    font-family: Arial, sans-serif;
     font-size: 12px;
     color: #fff;
 }
