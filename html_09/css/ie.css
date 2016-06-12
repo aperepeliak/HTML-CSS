@@ -1,0 +1,135 @@
+/*HEADER*/
+
+header {
+    height: 646px;
+    background-image: url(../img/header_bg.jpg);
+}
+
+.about {
+    height: 340px;
+}
+
+.testmnl_and_blog {
+    height: 488px;
+}
+
+.logos {
+    height: 120px;
+}
+
+.texts {
+    height: 397px;
+}
+
+footer {
+    height: 114px;
+}
+
+.logo_and_nav {
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.logo {
+    margin: 20px;
+    float: left;
+}
+
+.logo a img {
+    border: none;
+}
+
+.menu {
+	margin-top: 20px;
+    list-style: none;
+    margin-left: 40%;
+}
+
+.menu__item {
+    float: left;
+}
+
+.menu__link {
+    padding: 5px 10px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu__link--selected {
+    border-bottom: 2px solid #edbfff;
+}
+
+.menu__link:hover {
+    border-bottom: 2px solid #edbfff;
+    background: none;
+}
+
+
+/*SLIDER*/
+
+figure {
+    float: left;
+    width: 274px;
+    height: 434px;
+    margin: -20px 0 0 111px;
+    padding: 0;
+    background-image: url(../img/iphone.png);
+}
+
+.wrapper {
+    margin: 30px 20px;
+    /*overflow: hidden;*/
+}
+
+.content {
+    width: 50%;
+    float: left;
+}
+
+.content__header {
+	margin: 0;
+    padding: 0;
+    font-family: Georgia, serif;
+    font-size: 60px;
+    color: #fff;
+}
+
+.content__subheader {
+	padding: 0;
+	margin: 0;
+	font-family: Georgia, serif;
+    font-size: 30px;
+    color: #edbfff;
+}
+
+.content__text {
+    margin: 15px 0;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #fff;
+}
+
+/*MARKERS*/
+
+.markers {
+	clear: both;
+    margin: 77px 58px 0;
+}
+
+.markers_item {
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    background-color: #eee;
+}
+
+.markers_item:hover {
+    background-color: #999;
+}
+
+.markers_item--active {
+    background-color: #444;
+}
