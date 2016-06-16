@@ -74,9 +74,6 @@ footer {
     margin: 0;
 }
 
-.menu__item--hidden {
-    display: none;
-}
 
 .menu__link {
     text-decoration: none;
@@ -1057,6 +1054,10 @@ main .about {
     }
 
     /*DISABLED CONTENT*/
+    .menu__item--hidden {
+        display: none;
+    }
+
     .content__text {
         display: none;
     }
@@ -1090,13 +1091,16 @@ main .about {
 
     /*DROPDOWN MENU*/
 
-    .menu {
-        position: absolute;
-        top: 150px;
-        left: 20%;
-        display: inline-block;
+     header nav {
+        width: 200px;
+        height: 30px;
+        position: relative;
     }
 
+    .menu {
+        margin-left: -20px;
+        display: inline-block;
+    }
    
 
     .menu__item {
@@ -1156,74 +1160,6 @@ main .about {
         border-radius: 10px;
         background: rgba(54, 41, 62, 0.8);
     }
-
-    /*.menu {
-        position: relative;
-        display: inline-block;
-    }
-
-    .drop-content {
-        display: none;
-        width: 244px;
-        height: 234px;
-        position: absolute;
-        top: 43px;
-        left: -1px;
-        background: rgba(54, 41, 62, 0.8);
-    }
-    .menu__item {
-        width: 244px;
-        height: 45px;
-        border-top: 1px solid #523f5a;
-        border-bottom: 1px solid #36283e;
-        text-align: center;
-    }
-    .menu__item:last-child {
-        border-bottom: none;
-    }
-    .menu__item--selected {
-        width: 244px;
-        height: 45px;
-        border: none;
-        display: block;
-        text-align: center;
-    }
-    .menu__link {
-        height: 29px;
-        padding-top: 5px;
-        display: block;
-    }
-    .menu__link:hover {
-        border-bottom: 2px solid #edbfff;
-        background-color: rgba(0, 0, 0, 0.3);
-    }
-    .menu__link--selected {
-        width: 45px;
-        margin: 0 auto;
-        border-bottom: 2px solid #edbfff;
-    }
-    .menu__link--selected:hover {
-        width: 244px;
-        border-bottom: 2px solid #edbfff;
-        border-radius: 10px 10px 0 0;
-        background-color: rgba(0, 0, 0, 0.3);
-    }
-    .menu:hover .drop-content {
-        padding: 0;
-        border-left: 1px solid black;
-        border-right: 1px solid black;
-        border-bottom: 1px solid black;
-        border-radius: 0 0 10px 10px;
-        display: block;
-        text-align: center;
-    }
-    .menu:hover {
-        border-top: 1px solid black;
-        border-left: 1px solid black;
-        border-right: 1px solid black;
-        border-radius: 10px 10px 0 0;
-        background: rgba(54, 41, 62, 0.8);
-    }*/
 
     /*SLIDER*/
     .slider {
@@ -1297,8 +1233,13 @@ main .about {
     }
 
     /*FOOTER*/
+
+    footer nav {
+        width: 100%;
+    }
+
     .menu--bottom {
-        position: inherit;
+        /*position: inherit;*/
 		margin: 0;
     	padding: 0;
     }
@@ -1315,6 +1256,10 @@ main .about {
     	display: inline-block;
 		font-size: 20px;
     	box-sizing: border-box;
+    }
+
+    .menu__item:last-child {
+        border-bottom: none;
     }
 
     .menu--bottom:hover {
@@ -1369,6 +1314,10 @@ main .about {
     }
 
     /*DISABLED CONTENT*/
+    .menu__item--hidden {
+    display: none;
+    }
+
     .content__text {
         display: none;
     }
@@ -1400,10 +1349,14 @@ main .about {
 
     /*DROPDOWN MENU*/
 
+    nav {
+        width: 200px;
+        height: 30px;
+        position: relative;
+    }
+
     .menu {
-        position: absolute;
-        top: 150px;
-        left: 15%;
+        margin-left: -20px;
         display: inline-block;
     }
 
