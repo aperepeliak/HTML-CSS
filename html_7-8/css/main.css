@@ -638,10 +638,10 @@ footer {
         color: #787878;
         text-shadow: 1px 1px 1px #fff;
     }
+
+
     /*FOOTER*/
-    footer {
-        height: 201px;
-    }
+    
     footer .menu {
         display: block;
     }
@@ -683,6 +683,7 @@ footer {
     .designed {
         padding-top: 70px;
     }
+/*end of 480px*/
 }
 
 
@@ -705,10 +706,12 @@ footer {
     }
     .logo_and_nav {
         align-items: flex-start;
+        margin-left: 20px;
     }
     .logo {
         margin-top: 70px;
     }
+
     /*MENU*/
     nav {
         width: 100%;
@@ -779,44 +782,141 @@ footer {
         text-shadow: 1px 0 1px #000;
     }
 
+    .markers {
+    	margin: 37px 200px 0 0;
+    	align-self: flex-end;
+    }
 
 
-/*ABOUT*/
+	/*ABOUT*/
 
-.about {
-    height: 341px;
+	.about {
+	    height: 341px;
+	}
+
+	main .about {
+	    padding-top: 20px;
+	    flex-direction: row;
+	    justify-content: space-around;
+	}
+
+	.fish__paragraph {
+	    width: 150px;
+	    height: 135px;
+	}
+
+
+	/*TESTIMONIALS & BLOG*/
+
+	.testmnl_and_blog {
+	    height: 488px;
+	}
+
+	.testmnl_and_blog {
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	.testimonials {
+		margin-top: 50px;
+	}
+
+	.fish--tstmnls {
+		width: 313px;
+	}
+
+	.fish__paragraph--tst {
+		width: 250px;
+	}
+
+	.salmon {
+	display: block;
+    font-family: 'League Gothic', serif;
+    font-size: 24px;
+    color: #edbfff;
 }
 
+	.posts {
+		width: 324px;
+		margin-top: 40px;
+	}
 
-/*TESTIMONIALS & BLOG*/
+	.post__paragraph {
+		width: 250px;
+	}
 
-.testmnl_and_blog {
-    height: 488px;
-}
+	.markers--white {
+		margin: 20px 52px 40px;
+	}
+
+	.readMore {
+		margin-right: 3%;
+	}
+
+	/*LOGOS*/
+
+	.logos {
+	    height: 120px;
+	    justify-content: space-around;
+	}
+
+	.sprite-box {
+	    margin: 0 20px 0 20px;
+	}
+
+	/*TEXTS*/
+
+	.texts {
+	    height: 397px;
+	    flex-direction: row;
+        justify-content: center;
+	}
+
+    .fish--texts {
+    	width: 204px;
+    	height: 200px;
+    	margin: 0;
+    	padding: 0 23px;
+    }
+
+    .fish__paragraph--texts {
+      width: 204px;
+      height: 155px;
+    }
 
 
-/*LOGOS*/
+	/*FOOTER*/
 
-.logos {
-    height: 120px;
-}
+	footer {
+	    height: 201px;
+	}
 
+	 .menu--bottom {
+    	margin-left: 20px;
+    }
 
-/*TEXTS*/
+    .menu__item--bottom {
+		margin-right: 20px;
+    }
 
-.texts {
-    height: 397px;
-}
+    .menu__link--bottom {
+    	margin: 44px 23px 0 0;
+    	padding: 0;
+    	font-size: 20px;
+    }
 
+    .designed {
+    	margin-right: 9%;
+    	padding-top: 70px;
+    	float: right;
+    }
 
-/*FOOTER*/
-
-footer {
-    height: 201px;
-}
-
-
+/*End of 768px*/
 }
 
 /*960px*/
-@media (min-width: 960px) {}
+@media (min-width: 960px) {
+
+
+	/*End of 960px*/
+}
