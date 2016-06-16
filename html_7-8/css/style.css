@@ -814,6 +814,7 @@ main .about {
 	.logo_and_nav {
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
     }
 
     .logo {

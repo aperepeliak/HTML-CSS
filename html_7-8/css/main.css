@@ -89,75 +89,68 @@ nav {
     position: relative;
 }
 
-.menu {
-    margin: 0 0 0 -20px;
-    padding: 0;
-    list-style: none;
-    display: inline-block;
-}
-
-.menu__item {
-    margin: 0;
-    width: 244px;
-    height: 45px;
-    border-top: 1px solid #523f5a;
-    border-bottom: 1px solid #36283e;
-    text-align: center;
-}
-
-.menu__item:last-child {
-    border-bottom: 1px solid black;
-    border-radius: 0 0 10px 10px;
-}
-
-.menu__item--selected {
-    width: 244px;
-    height: 45px;
-    border: none;
-    display: block;
-    text-align: center;
-}
-
-.menu__link {
-    height: 30px;
-    padding-top: 5px;
-    display: block;
-    text-decoration: none;
-    font-family: 'League Gothic', serif;
-    font-size: 24px;
-    color: #fff;
-    text-shadow: 1px 1px 1px #000;
-}
-
-.menu__link:hover {
-    border-bottom: 2px solid #edbfff;
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-.menu__link--selected {
-    width: 45px;
-    margin: 0 auto;
-    border-bottom: 2px solid #edbfff;
-}
-
-.menu__link--selected:hover {
-    width: 244px;
-    border-bottom: 2px solid #edbfff;
-    border-radius: 10px 10px 0 0;
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-.menu:hover .menu__item--hidden {
-    display: flex;
-    flex-direction: column;
-}
-
-.menu:hover {
-    border-top: 1px solid black;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    border-radius: 10px;
-    background: rgba(54, 41, 62, 0.8);
+@media (max-width: 767px) {
+    .menu:hover .menu__item--hidden {
+        display: flex;
+        flex-direction: column;
+    }
+    .menu:hover {
+        border-top: 1px solid black;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        border-radius: 10px;
+        background: rgba(54, 41, 62, 0.8);
+    }
+    .menu__link--selected:hover {
+        width: 244px;
+        border-bottom: 2px solid #edbfff;
+        border-radius: 10px 10px 0 0;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+    .menu {
+        margin: 0 0 0 -20px;
+        padding: 0;
+        list-style: none;
+        display: inline-block;
+    }
+    .menu__item {
+        margin: 0;
+        width: 244px;
+        height: 45px;
+        border-top: 1px solid #523f5a;
+        border-bottom: 1px solid #36283e;
+        text-align: center;
+    }
+    .menu__item:last-child {
+        border-bottom: 1px solid black;
+        border-radius: 0 0 10px 10px;
+    }
+    .menu__item--selected {
+        width: 244px;
+        height: 45px;
+        border: none;
+        display: block;
+        text-align: center;
+    }
+    .menu__link {
+        height: 30px;
+        padding-top: 5px;
+        display: block;
+        text-decoration: none;
+        font-family: 'League Gothic', serif;
+        font-size: 24px;
+        color: #fff;
+        text-shadow: 1px 1px 1px #000;
+    }
+    .menu__link:hover {
+        border-bottom: 2px solid #edbfff;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+    .menu__link--selected {
+        width: 45px;
+        margin: 0 auto;
+        border-bottom: 2px solid #edbfff;
+    }
 }
 
 
@@ -216,7 +209,7 @@ nav {
 /*ABOUT*/
 
 .about {
-    height: 597px;
+	height: 597px;
     border-bottom: 1px solid #21333b;
     background: rgba(116, 80, 131, 1);
     background: -moz-linear-gradient(top, rgba(116, 80, 131, 1) 0%, rgba(50, 37, 57, 1) 100%);
@@ -301,8 +294,11 @@ main .about {
 
 /*TESTIMONIALS & BLOG*/
 
+ .testmnl_and_blog {
+        height: 788px;
+    }
+
 .testmnl_and_blog {
-    height: 788px;
     border-top: 1px solid #0d151b;
     border-bottom: 1px solid #e6e6e6;
     background-color: #f9f9f9;
@@ -579,16 +575,12 @@ footer {
         background-image: url(../img/iphone_small.png);
     }
     /*ABOUT*/
-    .about {
-        height: 597px;
-    }
+   
     .fish__paragraph {
         width: 380px;
     }
     /*TESTIMONIALS*/
-    .testmnl_and_blog {
-        height: 788px;
-    }
+   
     .fish--tstmnls {
         width: 415px;
     }
@@ -706,28 +698,125 @@ footer {
     footer {
         padding: 0 calc(50% - 400px);
     }
+    /*HEADER*/
     header {
         height: 798px;
         background: url(../img/line_bg_768.png) 0 244px no-repeat, url(../img/header_bg.jpg) -753px 0;
     }
-    .about {
-        height: 341px;
+    .logo_and_nav {
+        align-items: flex-start;
     }
-    .testmnl_and_blog {
-        height: 488px;
+    .logo {
+        margin-top: 70px;
     }
-    .logos {
-        height: 120px;
+    /*MENU*/
+    nav {
+        width: 100%;
     }
-    .texts {
-        height: 397px;
+    .menu {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        list-style: none;
     }
-    footer {
-        height: 201px;
+    .menu__item {
+        margin-right: 50px;
     }
+    .menu__link {
+        text-decoration: none;
+        font-family: 'League Gothic', serif;
+        font-size: 24px;
+        color: #fff;
+        text-shadow: 1px 1px 1px #000;
+    }
+    .menu__link--selected {
+        border-bottom: 2px solid #edbfff;
+    }
+    .menu__link:hover {
+        border-bottom: 2px solid #edbfff;
+        background: none;
+    }
+    .menu__item--hidden {
+        display: inline;
+    }
+    /*SLIDER*/
+    figure {
+        width: 274px;
+        height: 434px;
+        margin: -20px 0 0 145px;
+        padding: 0;
+        background-image: url(../img/iphone.png);
+    }
+    .wrapper {
+        height: 401px;
+        margin-top: 69px;
+        padding: 0;
+        display: flex;
+    }
+    .content {
+        width: 275px;
+        margin-top: 94px;
+    }
+    .content__header {
+        font-size: 48px;
+        padding: 0 0 0 23px;
+    }
+    .content__subheader {
+        width: 270px;
+        height: 25px;
+        padding: 0 0 0 22px;
+        font-size: 24px;
+    }
+    .content__text {
+        display: block;
+        width: 275px;
+        height: 90px;
+        margin: 15px 22px;
+        overflow: hidden;
+        font-family: 'Open Sans Light', sans-serif;
+        font-size: 16px;
+        color: #fff;
+        text-shadow: 1px 0 1px #000;
+    }
+
+
+
+/*ABOUT*/
+
+.about {
+    height: 341px;
 }
 
 
-/*960px*/
+/*TESTIMONIALS & BLOG*/
 
+.testmnl_and_blog {
+    height: 488px;
+}
+
+
+/*LOGOS*/
+
+.logos {
+    height: 120px;
+}
+
+
+/*TEXTS*/
+
+.texts {
+    height: 397px;
+}
+
+
+/*FOOTER*/
+
+footer {
+    height: 201px;
+}
+
+
+}
+
+/*960px*/
 @media (min-width: 960px) {}
