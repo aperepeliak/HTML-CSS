@@ -742,6 +742,8 @@ footer {
     .menu__item--hidden {
         display: inline;
     }
+
+
     /*SLIDER*/
     figure {
         width: 274px;
@@ -916,6 +918,65 @@ footer {
 
 /*960px*/
 @media (min-width: 960px) {
+	header,
+    .about,
+    .testmnl_and_blog,
+    .logos,
+    .texts,
+    footer {
+        padding: 0 calc(50% - 480px);
+    }
+
+
+    /*HEADER*/
+    header {
+        height: 846px;
+        background: url(../img/line_bg_768.png) 0 278px no-repeat, url(../img/header_bg.jpg) -570px 0;
+    }
+
+    .logo_and_nav {
+    	flex-direction: row;
+    }
+
+	
+
+
+
+
+
+
+
+
+    /*ABOUT*/
+	.about {
+        height: 340px;
+    }
+
+
+    /*TESTIMONIALS & BLOG*/
+    .testmnl_and_blog {
+        height: 488px;
+    }
+
+    /*LOGOS*/
+    .logos {
+        height: 120px;
+    }
+
+    /*TEXTS*/
+    .texts {
+        height: 397px;
+    }
+
+    /*FOOTER*/
+    footer {
+        height: 114px;
+    }
+
+
+
+
+
 
 
 	/*End of 960px*/
