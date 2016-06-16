@@ -1091,6 +1091,73 @@ main .about {
     /*DROPDOWN MENU*/
 
     .menu {
+        position: absolute;
+        top: 150px;
+        left: 20%;
+        display: inline-block;
+    }
+
+   
+
+    .menu__item {
+        width: 244px;
+        height: 45px;
+        border-top: 1px solid #523f5a;
+        border-bottom: 1px solid #36283e;
+        text-align: center;
+    }
+
+    .menu__item:last-child {
+        border-bottom: 1px solid black;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .menu__item--selected {
+        width: 244px;
+        height: 45px;
+        border: none;
+        display: block;
+        text-align: center;
+    }
+
+    .menu__link {
+        height: 30px;
+        padding-top: 5px;
+        display: block;
+    }
+
+    .menu__link:hover {
+        border-bottom: 2px solid #edbfff;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    .menu__link--selected {
+        width: 45px;
+        margin: 0 auto;
+        border-bottom: 2px solid #edbfff;
+    }
+
+    .menu__link--selected:hover {
+        width: 244px;
+        border-bottom: 2px solid #edbfff;
+        border-radius: 10px 10px 0 0;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    .menu:hover .menu__item--hidden {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .menu:hover {
+        border-top: 1px solid black;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        border-radius: 10px;
+        background: rgba(54, 41, 62, 0.8);
+    }
+
+    /*.menu {
         position: relative;
         display: inline-block;
     }
@@ -1156,7 +1223,7 @@ main .about {
         border-right: 1px solid black;
         border-radius: 10px 10px 0 0;
         background: rgba(54, 41, 62, 0.8);
-    }
+    }*/
 
     /*SLIDER*/
     .slider {
@@ -1231,6 +1298,7 @@ main .about {
 
     /*FOOTER*/
     .menu--bottom {
+        position: inherit;
 		margin: 0;
     	padding: 0;
     }
@@ -1335,7 +1403,7 @@ main .about {
     .menu {
         position: absolute;
         top: 150px;
-        left: 70px;
+        left: 15%;
         display: inline-block;
     }
 
