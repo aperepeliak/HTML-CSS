@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,800&subset=latin,cyrillic');
-@import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One');
-
-
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,800&subset=latin,cyrillic');*/
 
 @font-face {
     font-family: 'League Gothic';
@@ -72,7 +69,7 @@ footer {
 
 .menu__link {
     padding: 5px 10px;
-    font-family: 'Pathway Gothic One', serif;
+    font-family: Arial, sans-serif;
     font-weight: bold;
     font-size: 18px;
     text-decoration: none;
