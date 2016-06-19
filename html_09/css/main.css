@@ -1005,12 +1005,9 @@ footer .menu--bottom {
         margin: 0 170px 0 0;
     }
 
-    .menu {
-        justify-content: space-between;
-    }
-
     .menu__item {
         margin: 0;
+        padding-right: 30px;
     }
 
     /*SLIDER*/
@@ -1232,6 +1229,7 @@ footer .menu--bottom {
 
     .menu__item--bottom {
         margin: 0;
+        padding-right: 10px;
         border: none;
     }
 
@@ -1264,6 +1262,6 @@ footer .menu--bottom {
         margin-right: 5%;
         padding-top: 50px;
     }
-    
+
     /*End of 960px*/
 }
