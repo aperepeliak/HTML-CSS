@@ -1,2 +1,2 @@
-# homeworks
-my frontend homeworks
+# homework
+my html/css home assignments
